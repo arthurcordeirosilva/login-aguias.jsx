@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.background{
+  background-image: url("assets/passaros.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bloco_entrada{
+  height: 100%;
+  width: 100%;
+  position: block;
+  margin-top: 210px;
+  z-index: -1;
+}
+
+.bloco_login{
+  height: 100%;
+  width: 100%;
+  position: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bloco_separador{
+  height: 100%;
+  width: 100%;
+  position: block;
+  z-index: -1;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.avancar {
+  color: #888;
+}
+
+.a {
+  color: #888;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  text-decoration: none !important;
+}
+
+.welcome {
+  color: #FFFFFF;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+
+.travel {
+  color: #FFFFFF;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 75px;
+}
